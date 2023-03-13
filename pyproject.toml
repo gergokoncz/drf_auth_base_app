@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "drf-auth-base-app"
+version = "0.1.0"
+description = "Django REST Framework base app with authentication"
+authors = ["gergokoncz <gergokoncz06@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "drf_auth_base_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
