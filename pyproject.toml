@@ -10,6 +10,10 @@ packages = [{include = "drf_auth_base_app"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 django = "^4.1.7"
+djangorestframework = "^3.14.0"
+markdown = "^3.4.1"
+django-filter = "^22.1"
+djoser = "^2.1.0"
 
 
 [build-system]
